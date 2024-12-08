@@ -1,24 +1,7 @@
-# Spring-boot Banking
-Example project demonstrating the use of Java and Spring-boot to build a microservice to be used by an online bank
-
-## Running locally
-```
-./mvnw clean install -DskipTests=true
-```
-
-```
-java -jar target/Banking-0.0.1.jar
-```
-
-## Running on Docker
-```
-docker build -t "spring-boot:banking" .
-```
-
-```
-docker run -p 8080:8080 spring-boot:banking
-```
-
+# Finance System
+- Developed a scalable finance backend system using Spring Boot with RESTful services for account management and transaction processing.
+- Integrated Generex to generate random strings for account numbers and sort codes, and utilized Spring Validator for input validation.
+- Designed entity relationships with Spring Data JPA and H2 Database to enable seamless CRUD operations and conducted comprehensive API testing using JUnit for reliability.
 ## Testing
 Import the Postman collection file into the application or copy the request body from there
 
